@@ -20,16 +20,16 @@ const Hero = () => {
                 <p className="text-primary font-medium tracking-wider text-sm uppercase">Welcome to my portfolio</p>
                 <h1 className="text-5xl lg:text-7xl font-bold">
                   Hi, I'm{" "}
-                  <span className="gradient-text">Your Name</span>
+                  <span className="gradient-text">Pradip Kumar</span>
                 </h1>
                 <h2 className="text-2xl lg:text-3xl text-muted-foreground font-light">
-                  Full Stack Developer & UI/UX Designer
+                  AWS-Certified Cloud Engineer & DevOps Specialist
                 </h2>
               </div>
               
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                Passionate about creating exceptional digital experiences through innovative design and robust development. 
-                I transform ideas into scalable, user-centric solutions.
+                AWS-certified Cloud Engineer specializing in cloud-native solutions, DevOps, SRE, and backend development. 
+                I build secure, scalable, and high-performing systems using event-driven architecture and automation.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">

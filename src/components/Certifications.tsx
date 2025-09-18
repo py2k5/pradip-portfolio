@@ -4,58 +4,58 @@ import { Button } from "@/components/ui/button";
 
 const certifications = [
   {
-    title: "AWS Certified Solutions Architect",
+    title: "AWS DevOps Engineer - Professional",
     issuer: "Amazon Web Services",
-    date: "2023",
-    credentialId: "AWS-ASA-2023-001",
-    description: "Validates expertise in designing distributed systems and applications on AWS platform",
-    verifyUrl: "#",
+    date: "2024",
+    credentialId: "AWS-DOP-PRO-2024",
+    description: "Advanced certification validating expertise in DevOps practices, CI/CD, and automation on AWS",
+    verifyUrl: "https://aws.amazon.com/certification/certified-devops-engineer-professional/",
     logo: "🏆"
   },
   {
-    title: "Google Cloud Professional Developer",
-    issuer: "Google Cloud",
+    title: "AWS Solutions Architect - Associate",
+    issuer: "Amazon Web Services",
     date: "2023",
-    credentialId: "GCP-PD-2023-002",
-    description: "Demonstrates ability to build, test, and deploy scalable applications on Google Cloud",
-    verifyUrl: "#",
+    credentialId: "AWS-SAA-2023",
+    description: "Validates technical expertise in designing and deploying scalable AWS systems",
+    verifyUrl: "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
     logo: "☁️"
   },
   {
-    title: "React Developer Professional Certificate",
-    issuer: "Meta (Facebook)",
-    date: "2022",
-    credentialId: "META-RDC-2022-003",
-    description: "Comprehensive certification covering React fundamentals, advanced patterns, and best practices",
-    verifyUrl: "#",
+    title: "AWS Developer - Associate",
+    issuer: "Amazon Web Services",
+    date: "2023",
+    credentialId: "AWS-DVA-2023",
+    description: "Demonstrates proficiency in developing and maintaining AWS applications",
+    verifyUrl: "https://aws.amazon.com/certification/certified-developer-associate/",
     logo: "⚛️"
   },
   {
-    title: "Certified Kubernetes Administrator",
-    issuer: "Cloud Native Computing Foundation",
+    title: "AWS Cloud Practitioner",
+    issuer: "Amazon Web Services",
     date: "2022",
-    credentialId: "CKA-2022-004",
-    description: "Validates skills in Kubernetes cluster administration and container orchestration",
-    verifyUrl: "#",
-    logo: "🚢"
+    credentialId: "AWS-CLF-2022",
+    description: "Foundation-level certification covering AWS cloud concepts and services",
+    verifyUrl: "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+    logo: "🌟"
   },
   {
-    title: "UX Design Professional Certificate",
-    issuer: "Google",
-    date: "2021",
-    credentialId: "GOOGLE-UX-2021-005",
-    description: "Covers the entire UX design process from user research to prototyping and testing",
-    verifyUrl: "#",
-    logo: "🎨"
+    title: "AWS AI Practitioner",
+    issuer: "Amazon Web Services",
+    date: "2024",
+    credentialId: "AWS-AIP-2024",
+    description: "Validates knowledge of AI/ML services and best practices on AWS platform",
+    verifyUrl: "https://aws.amazon.com/certification/certified-ai-practitioner/",
+    logo: "🤖"
   },
   {
-    title: "MongoDB Certified Developer",
-    issuer: "MongoDB Inc.",
-    date: "2021",
-    credentialId: "MDB-DEV-2021-006",
-    description: "Validates expertise in MongoDB database development and data modeling",
-    verifyUrl: "#",
-    logo: "🍃"
+    title: "HashiCorp Terraform Associate",
+    issuer: "HashiCorp",
+    date: "2023",
+    credentialId: "HCP-TF-2023",
+    description: "Validates skills in Infrastructure as Code using Terraform for cloud provisioning",
+    verifyUrl: "https://www.hashicorp.com/certification/terraform-associate",
+    logo: "🏗️"
   }
 ];
 

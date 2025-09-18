@@ -3,39 +3,39 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const skillCategories = [
   {
-    title: "Frontend Development",
-    icon: Code,
-    skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js", "Angular"],
+    title: "Cloud Platforms",
+    icon: Database,
+    skills: ["AWS", "Lambda", "S3", "ECS Fargate", "CloudFormation", "Event Bridge"],
     color: "text-blue-400"
   },
   {
-    title: "Backend Development", 
+    title: "DevOps & SRE", 
     icon: Server,
-    skills: ["Node.js", "Python", "FastAPI", "Express", "PostgreSQL", "MongoDB"],
+    skills: ["Terraform", "GitHub Actions", "CI/CD", "Docker", "Ansible", "Monitoring"],
     color: "text-green-400"
   },
   {
-    title: "UI/UX Design",
-    icon: Palette,
-    skills: ["Figma", "Adobe XD", "Sketch", "Prototyping", "User Research", "Wireframing"],
+    title: "Programming Languages",
+    icon: Code,
+    skills: ["Python", "TypeScript", "Node.js", "Bash", "Perl", "Django"],
     color: "text-purple-400"
   },
   {
-    title: "Mobile Development",
-    icon: Smartphone,
-    skills: ["React Native", "Flutter", "iOS", "Android", "Expo", "PWA"],
+    title: "Event-Driven Architecture",
+    icon: Globe,
+    skills: ["Step Functions", "API Gateway", "SQS", "MSK", "Kafka", "Microservices"],
     color: "text-orange-400"
   },
   {
-    title: "Database & Cloud",
-    icon: Database,
-    skills: ["AWS", "Docker", "Kubernetes", "Redis", "GraphQL", "Supabase"],
+    title: "Infrastructure as Code",
+    icon: Palette,
+    skills: ["Terraform", "CloudFormation", "CDK", "Azure DevOps", "IAM", "Secrets Manager"],
     color: "text-cyan-400"
   },
   {
-    title: "Web Technologies",
-    icon: Globe,
-    skills: ["REST APIs", "WebSocket", "OAuth", "CI/CD", "Git", "Testing"],
+    title: "Monitoring & Observability",
+    icon: Smartphone,
+    skills: ["Grafana", "Prometheus", "New Relic", "Splunk", "ELK Stack", "Zabbix"],
     color: "text-pink-400"
   }
 ];

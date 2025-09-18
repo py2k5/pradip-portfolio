@@ -6,40 +6,40 @@ const socialLinks = [
   {
     name: "GitHub",
     icon: Github,
-    url: "https://github.com/yourusername",
-    description: "View my code repositories and open source contributions",
-    followers: "2.5K followers",
+    url: "https://github.com/pradipkumar",
+    description: "View my automation scripts and infrastructure code",
+    followers: "DevOps Projects",
     color: "hover:text-gray-400"
   },
   {
     name: "LinkedIn",
     icon: Linkedin,
-    url: "https://linkedin.com/in/yourprofile",
-    description: "Connect with me professionally and view my career journey",
-    followers: "5K+ connections",
+    url: "https://linkedin.com/in/pradip-kumar-aws",
+    description: "Connect with me professionally and view my AWS journey",
+    followers: "Cloud Community",
     color: "hover:text-blue-400"
   },
   {
-    name: "Twitter",
-    icon: Twitter,
-    url: "https://twitter.com/yourusername",
-    description: "Follow me for tech insights and industry thoughts",
-    followers: "1.2K followers",
-    color: "hover:text-blue-400"
-  },
-  {
-    name: "Portfolio Website",
+    name: "AWS Profile",
     icon: Globe,
-    url: "https://yourwebsite.com",
-    description: "Explore my complete portfolio and case studies",
-    followers: "Live projects",
-    color: "hover:text-green-400"
+    url: "https://aws.amazon.com/certification/",
+    description: "View my AWS certifications and cloud expertise",
+    followers: "6 AWS Certs",
+    color: "hover:text-orange-400"
+  },
+  {
+    name: "Terraform Registry",
+    icon: FileText,
+    url: "https://registry.terraform.io/",
+    description: "Explore my Infrastructure as Code modules",
+    followers: "IaC Expert",
+    color: "hover:text-purple-400"
   },
   {
     name: "Email",
     icon: Mail,
-    url: "mailto:your.email@example.com",
-    description: "Reach out for collaborations and opportunities",
+    url: "mailto:pradip.kumar@example.com",
+    description: "Reach out for cloud consulting and DevOps opportunities",
     followers: "Available 24/7",
     color: "hover:text-red-400"
   },
@@ -47,9 +47,9 @@ const socialLinks = [
     name: "Resume/CV",
     icon: FileText,
     url: "#",
-    description: "Download my detailed resume and credentials",
+    description: "Download my detailed resume with project achievements",
     followers: "Always updated",
-    color: "hover:text-purple-400"
+    color: "hover:text-green-400"
   }
 ];
 
@@ -103,7 +103,7 @@ const SocialLinks = () => {
             <Button 
               size="lg" 
               className="bg-gradient-primary hover:shadow-glow transition-all duration-300 px-8"
-              onClick={() => window.open('mailto:your.email@example.com', '_blank')}
+              onClick={() => window.open('mailto:pradip.kumar@example.com', '_blank')}
             >
               <Mail className="w-5 h-5 mr-2" />
               Send me an email

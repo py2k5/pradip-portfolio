@@ -3,51 +3,55 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [
   {
-    title: "Senior Full Stack Developer",
-    company: "Tech Innovation Inc.",
-    location: "San Francisco, CA",
-    period: "2022 - Present",
-    description: "Leading development of scalable web applications using React, Node.js, and cloud technologies. Mentoring junior developers and architecting microservices solutions.",
+    title: "Senior Software Engineer",
+    company: "Rackspace Australia",
+    location: "Australia",
+    period: "April 2025 - Present",
+    description: "Leading Content Services application modernization, designing serverless event-driven solutions for AWS migration using Lambda, Step Functions, and CloudFormation.",
     achievements: [
-      "Increased application performance by 40% through optimization",
-      "Led a team of 5 developers in agile environment",
-      "Implemented CI/CD pipeline reducing deployment time by 60%"
+      "Designed and built serverless event-driven architecture",
+      "Created generic file ingestion solution with S3, Lambda, and Step Functions",
+      "Implemented CI/CD pipelines with GitHub Actions",
+      "Integrated observability with Grafana/Prometheus"
     ]
   },
   {
-    title: "Full Stack Developer",
-    company: "Digital Solutions Co.",
-    location: "New York, NY",
-    period: "2020 - 2022",
-    description: "Developed and maintained multiple client projects using modern web technologies. Collaborated with design teams to create responsive user interfaces.",
+    title: "Senior Cloud Consultant",
+    company: "Cevo Australia (AWS Consulting Firm)",
+    location: "Australia",
+    period: "January 2022 - March 2025",
+    description: "Led multiple cloud transformation projects including GitHub self-hosted runners, FinOps cost optimization, and large-scale cloud migrations.",
     achievements: [
-      "Delivered 15+ successful client projects",
-      "Reduced bug reports by 50% through comprehensive testing",
-      "Implemented new features that increased user engagement by 35%"
+      "Achieved $700K monthly AWS cost savings through automation",
+      "Built scalable GitHub self-hosted runner system using ECS Fargate",
+      "Migrated legacy MSATS system to AWS with >85% test coverage",
+      "Implemented Infrastructure-as-Code using Terraform"
     ]
   },
   {
-    title: "Frontend Developer",
-    company: "StartupLab",
-    location: "Austin, TX",
-    period: "2019 - 2020",
-    description: "Built responsive web applications and mobile interfaces. Worked closely with UX designers to implement pixel-perfect designs.",
+    title: "Senior Software Engineer",
+    company: "Firstwave Cloud Solutions",
+    location: "Australia",
+    period: "June 2019 - January 2022",
+    description: "SRE-focused automatic deployment of cloud security products with emphasis on monitoring, alerting, and incident response automation.",
     achievements: [
-      "Created reusable component library used across 10+ projects",
-      "Improved website loading speed by 45%",
-      "Mentored 3 junior developers in React best practices"
+      "Developed backend APIs and integrations",
+      "Built CI/CD pipelines for automated deployment",
+      "Implemented comprehensive monitoring and alerting systems",
+      "Enhanced system reliability through SRE practices"
     ]
   },
   {
-    title: "Junior Web Developer",
-    company: "WebCraft Agency",
-    location: "Remote",
-    period: "2018 - 2019",
-    description: "Started career building websites for small businesses. Gained experience with HTML, CSS, JavaScript, and basic backend technologies.",
+    title: "Network (Python) Developer",
+    company: "Macquarie Group",
+    location: "Australia",
+    period: "August 2018 - May 2019",
+    description: "Developed web-based portal for network infrastructure management and automated day-to-day network operations.",
     achievements: [
-      "Completed 25+ website projects for local businesses",
-      "Achieved 98% client satisfaction rate",
-      "Self-taught React and modern development practices"
+      "Built end-to-end self-service systems for DNS and load balancing",
+      "Automated routine network device management tasks",
+      "Integrated portal with legacy network systems",
+      "Provided network health visualization dashboard"
     ]
   }
 ];
