@@ -6,7 +6,7 @@ const socialLinks = [
   {
     name: "GitHub",
     icon: Github,
-    url: "https://github.com/pradip-cloud-engineer",
+    url: "https://github.com/py2k5"
     description: "View my automation scripts and infrastructure code",
     followers: "DevOps Projects",
     color: "hover:text-gray-400"
