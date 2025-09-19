@@ -38,7 +38,7 @@ const Hero = () => {
                   Get In Touch
                 </Button>
                 <Button variant="outline" size="lg" className="group hover-glow" asChild>
-                  <a href="/pradip_resume_2025.pdf" download="Pradip_Mawat_Resume.pdf">
+                  <a href="/pradip_resume_2025.pdf" download="Pradip_resume_2025.pdf">
                     <Download className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
                     Download CV
                   </a>
