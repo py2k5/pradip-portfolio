@@ -6,7 +6,7 @@ const socialLinks = [
   {
     name: "GitHub",
     icon: Github,
-    url: "https://github.com/pradip-cloud-engineer",
+    url: "https://github.com/py2k5",
     description: "View my automation scripts and infrastructure code",
     followers: "DevOps Projects",
     color: "hover:text-gray-400"
@@ -14,7 +14,7 @@ const socialLinks = [
   {
     name: "LinkedIn",
     icon: Linkedin,
-    url: "https://linkedin.com/in/pradip-kumar-aws",
+    url: "https://www.linkedin.com/in/pradipkumark/",
     description: "Connect with me professionally and view my AWS journey",
     followers: "Cloud Community",
     color: "hover:text-blue-400"
@@ -38,7 +38,7 @@ const socialLinks = [
   {
     name: "Email",
     icon: Mail,
-    url: "mailto:pradip.kumar@example.com",
+    url: "mailto:pradipy2k5@gmail.com",
     description: "Reach out for cloud consulting and DevOps opportunities",
     followers: "Available 24/7",
     color: "hover:text-red-400"
@@ -103,7 +103,7 @@ const SocialLinks = () => {
             <Button 
               size="lg" 
               className="bg-gradient-primary hover:shadow-glow transition-all duration-300 px-8"
-              onClick={() => window.open('mailto:pradip.kumar@example.com', '_blank')}
+              onClick={() => window.open('mailto:pradipy2k5@gmail.com', '_blank')}
             >
               <Mail className="w-5 h-5 mr-2" />
               Send me an email
